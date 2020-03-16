@@ -2,7 +2,7 @@
   "private": true,
   "name": "root",
   "version": "1.0.0",
-  "description": "Root",
+  "description": "A monorepo use yarn and changesets without lerna.",
   "homepage": "https://github.com/azu/monorepo-release-changesets",
   "bugs": {
     "url": "https://github.com/azu/monorepo-release-changesets/issues"
