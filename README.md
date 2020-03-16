@@ -54,15 +54,19 @@ Another monorepo release flow:
 
 ### An Example of Work Flow 
 
-1. [Person] Submit PR: [fix(packages): add test by azu · Pull Request #1 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/1)
+1. [Person] Submit PR: [feat(one): add new feature by azu · Pull Request #4 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/4)
 
 ![1.pr.png](docs/1.pr.png)
 
-2. [Team or Person] add Label for versioning
+2. [Team or Person] add Label for versioning : `Semver: minor`
 
 ![2.label.png](docs/2.label.png)
 
-3.  [CI] 
+3. [CI] Create `.changeset/azu-monorepo-release-changesets-4.md`
+    - [feat(one): add new feature · azu/monorepo-release-changesets@9464bde](https://github.com/azu/monorepo-release-changesets/runs/509976218?check_suite_focus=true)
+    - [CI(changeset): add changeset for PR #4 · azu/monorepo-release-changesets@240d2bf](https://github.com/azu/monorepo-release-changesets/commit/240d2bf1a69f6bf265fe28788feb5c9e9420df50) 
+
+
 
 ### Notes
 
