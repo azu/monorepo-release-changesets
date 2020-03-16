@@ -1,6 +1,8 @@
 # @azu/mono-one
 
-One -　NEW FEATURE
+One
+ 
+- NEW FEATURE
 
 ## Install
 
