@@ -7,6 +7,7 @@ on:
     types: [closed]
     paths-ignore:
       - '.changeset/**'
+      - '**/CHANGELOG.md'
 
 jobs:
   build:
