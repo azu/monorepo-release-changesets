@@ -2,7 +2,7 @@
 
 Deps
 
-- one
+- one two
 
 ## Install
 
