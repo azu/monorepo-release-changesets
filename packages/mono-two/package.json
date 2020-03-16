@@ -2,13 +2,13 @@
   "name": "@azu/mono-two",
   "version": "1.6.0",
   "description": "",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-two/",
+  "homepage": "https://github.com/azu/monorepo-release-changesets/tree/master/packages/mono-two/",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/azu/monorepo-release-changesets/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git",
+    "url": "https://github.com/azu/monorepo-release-changesets.git",
     "directory": "packages/mono-two"
   },
   "license": "MIT",

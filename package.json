@@ -3,13 +3,13 @@
   "name": "root",
   "version": "1.0.0",
   "description": "Root",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release",
+  "homepage": "https://github.com/azu/monorepo-release-changesets",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/azu/monorepo-release-changesets/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git"
+    "url": "https://github.com/azu/monorepo-release-changesets.git"
   },
   "license": "MIT",
   "author": "azu",
@@ -19,18 +19,12 @@
     ]
   },
   "scripts": {
-    "versionup": "lerna version --conventional-commits --no-git-tag-version",
-    "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version",
-    "versionup:minor": "lerna version minor --conventional-commits --no-git-tag-version",
-    "versionup:major": "lerna version major --conventional-commits --no-git-tag-version",
-    "postversionup": "npm run commit-version",
-    "postversionup:patch": "npm run commit-version",
-    "postversionup:minor": "npm run commit-version",
-    "postversionup:major": "npm run commit-version",
-    "commit-version": "git add . && git commit -m \"chore(release): publish `node -p 'require(\"./lerna.json\").version'`\"",
-    "release": "lerna publish from-package"
+    "add-changesets": "changeset add",
+    "release-ci": "lerna publish from-package --y --no-verify-access"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "@changesets/cli": "^2.6.1",
+    "lerna": "^3.20.2",
+    "pr-to-changesets": "^1.0.1"
   }
 }
