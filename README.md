@@ -52,6 +52,11 @@ Another monorepo release flow:
     - Each packages are published as `Semver: <version>`
     - Implementation in [.github/workflows/publish.yml](.github/workflows/publish.yml
 
+### Implementation details
+
+- [Person] Submit PR: [fix(packages): add test by azu · Pull Request #1 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/1)
+- [CI] 
+
 ### Notes
 
 GitHub Label like `Semver: patch` is user defined label.
