@@ -2,6 +2,8 @@
 
 This repository is an example of monorepo release flow.
 
+This monorepo use [yarn](https://github.com/yarnpkg/yarn) and [changesets](https://github.com/atlassian/changesets) without [lerna](https://github.com/lerna/lerna).
+
 Related:
 
 - [atlassian/changesets: 🦋 A way to manage your versioning and changelogs with a focus on monorepos](https://github.com/atlassian/changesets)
