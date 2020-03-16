@@ -52,10 +52,17 @@ Another monorepo release flow:
     - Each packages are published as `Semver: <version>`
     - Implementation in [.github/workflows/publish.yml](.github/workflows/publish.yml
 
-### Implementation details
+### An Example of Work Flow 
 
-- [Person] Submit PR: [fix(packages): add test by azu · Pull Request #1 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/1)
-- [CI] 
+1. [Person] Submit PR: [fix(packages): add test by azu · Pull Request #1 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/1)
+
+![1.pr.png](docs/1.pr.png)
+
+2. [Team or Person] add Label for versioning
+
+![2.label.png](docs/2.label.png)
+
+3.  [CI] 
 
 ### Notes
 
