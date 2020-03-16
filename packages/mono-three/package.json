@@ -23,7 +23,9 @@
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "echo OK"
+  },
   "dependencies": {
     "@azu/mono-one": "^1.6.0",
     "@azu/mono-two": "^1.6.0"

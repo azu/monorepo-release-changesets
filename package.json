@@ -19,6 +19,7 @@
     ]
   },
   "scripts": {
+    "test": "yarn workspaces run test",
     "add-changesets": "changeset add",
     "release-ci": "lerna publish from-package --y --no-verify-access"
   },
