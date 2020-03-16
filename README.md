@@ -54,7 +54,7 @@ Another monorepo release flow:
 
 ### Notes
 
-GitHub Label integration. `Semver: <version>` is user defined label.
+GitHub Label like `Semver: patch` is user defined label.
 It means that you can use another labels like `Type: Feature` and `Type: BREAKING CHANGE`.
 
 - Semver Labels is defined in [.github/pr-to-changesets.json](.github/pr-to-changesets.json).
