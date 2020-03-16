@@ -1,6 +1,6 @@
 # monorepo + changesets Release FLow
 
-This repository is an example of monorepo release flow.
+This is an example of monorepo release flow.
 
 This monorepo use [yarn](https://github.com/yarnpkg/yarn) + [lerna](https://github.com/lerna/lerna) + [changesets](https://github.com/atlassian/changesets) + [GitHub Actions](https://github.co.jp/features/actions). 
 
