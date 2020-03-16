@@ -2,7 +2,7 @@
 
 This repository is an example of monorepo release flow.
 
-This monorepo use [yarn](https://github.com/yarnpkg/yarn), [changesets](https://github.com/atlassian/changesets), and [GitHub Actions](https://github.co.jp/features/actions) without [lerna](https://github.com/lerna/lerna).
+This monorepo use [yarn](https://github.com/yarnpkg/yarn) + [lerna](https://github.com/lerna/lerna) + [changesets](https://github.com/atlassian/changesets) + [GitHub Actions](https://github.co.jp/features/actions). 
 
 Related:
 
@@ -54,7 +54,7 @@ Another monorepo release flow:
 
 ### An Example of Work Flow 
 
-1. [Person] Submit PR: [fix(packages): add test by azu · Pull Request #1 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/1)
+1. [Person] Submit Pull Request: [fix(packages): add test by azu · Pull Request #1 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/1)
 
 ![1.pr.png](docs/1.pr.png)
 
@@ -62,7 +62,12 @@ Another monorepo release flow:
 
 ![2.label.png](docs/2.label.png)
 
-3.  [CI] 
+3.  [CI] Create Version up Pull Request: [Version Packages by github-actions · Pull Request #5 · azu/monorepo-release-changesets](https://github.com/azu/monorepo-release-changesets/pull/5)
+
+4. [Team] Review it and Merge It
+
+5. [CI] Publish update packages to npm registry
+
 
 ### Notes
 
