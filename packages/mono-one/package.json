@@ -23,7 +23,9 @@
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "echo OK"
+  },
   "publishConfig": {
     "access": "public"
   }
